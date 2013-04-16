@@ -156,3 +156,25 @@ a:active {
 }
 
 
+
+.blog-posts{
+	font-size: 15px;
+	color:  #737373;
+	margin: 30px auto 0;
+	width: 600px;
+}
+
+.blog-posts ul {
+	line-height: 400%;
+
+}
+
+.blog-posts a {
+	font-size: 25px;
+	font-style: none;
+	margin: 20px 0 0 20px;
+	padding-left: 10px;
+	position: relative;
+}
+
+
