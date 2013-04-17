@@ -1,32 +1,94 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="assets/style.css">
 		<title>Claire Lew</title>
 	</head>
 
 	<body>
 
-		<nav>
-			<a href="index.html"><img src ="logo.png" alt = "CLew logo"></a>
-			<ul><a href="blog.html">Blog</a></ul>
-			<ul><a href="http://twitter.com/cjlew23">Twitter</a></ul>
-			<ul><a href="mailto:clew23@gmail.com">Email</a></ul>
-		</nav>
+<!-- Primary Header -->
 
-		<header>
-			<div class = "top">
-				<h1>Recent thoughts</h1>
+		<header class = "primary-header group">
+			<div class = "container">
+
+				<h1 class = "primary-logo">
+					<a href="index.html"><img src ="assets/logo.png" alt = "Claire Lew"></a>
+				</h1>
+
+				<nav class = "primary-nav">	
+					<ul>
+						<li>
+							<a href="blog.html">
+								<i>Blog</i>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:clew23@gmail.com">
+								<i>Email</i>
+							</a>
+						</li>
+						<li>
+							<a href="http://twitter.com/cjlew23">
+								<i>Twitter</i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+
 			</div>
 		</header>
 
-	
-			<div class = "blog-posts">
-				<ul>4.14.13 <a href="blog/producing.html">Producing</a></ul>
-				<ul>4.7.13 <a href="blog/learning-to-learn.html">Learning to learn</a></ul>
-				<ul>3.31.13 <a href="blog/student.html">Student</a></ul>
-			</div>
+<!-- Main Content:  Blog Post Listings -->
 
 
-	</body>
+			<section class = "main-content container group">
+				<h2>
+					Recent thoughts
+				</h2>
+					<ul class = "blog-list">
+						<li class = "group">
+							<aside class = "post-date">
+								<time>4.14.13</time>
+							</aside>
+							<div class = "blog-title">
+								<a href="blog/producing.html">
+									<h3>Producing</h3>
+								</a>
+							</div>
+						</li>
+						<li class = "group">
+							<aside class = "post-date">
+								<time>4.7.13</time>
+							</aside>
+							<div class = "blog-title">
+								<a href="blog/learning-to-learn.html">
+									<h3>Learning to learn</h3>
+								</a>
+							</div>
+						</li>
+						<li class = "group">
+							<aside class = "post-date">
+								<time>3.31.13</time>
+							</aside>
+							<div class = "blog-title">
+								<a href="blog/student.html">
+									<h3>Student</h3>
+								</a>
+							</div>
+						</li>
+					</ul>
+			</section>	
+
+
+<!-- Footer -->
+
+		<footer class = "group">
+			<h6>Say hello via <a href="mailto:clew23@gmail.com" target="_blank">email</a> or <a href="http://twitter.com/cjlew23" target="_blank">Twitter</a>.
+			</h6>
+		</footer>
+
+</body>
+
 </html>

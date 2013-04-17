@@ -2,37 +2,64 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="assets/style.css">
 		<title>Claire Lew</title>
 	</head>
 	
 	<body>
 
-		<nav>
-			<a href="index.html"><img src ="logo.png" alt = "CLew logo"></a>
-			<ul><a href="blog.html">Blog</a></ul>
-			<ul><a href="http://twitter.com/cjlew23">Twitter</a></ul>
-			<ul><a href="mailto:clew23@gmail.com">Email</a></ul>
-		</nav>
-			
-		<header>	
-			<div class="top">
-				<img src = "picture.jpg" alt = "Claire Lew" class = "circular">
-				<h1> Hi, I'm Claire Lew.</h1>
+<!-- Primary Header -->
+
+		<header class = "primary-header group">
+			<div class = "container">
+
+				<h1 class = "primary-logo">
+					<a href="index.html"><img src ="assets/logo.png" alt = "Claire Lew"></a>
+				</h1>
+
+				<nav class = "primary-nav">	
+					<ul>
+						<li>
+							<a href="blog.html">
+								<i>Blog</i>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:clew23@gmail.com">
+								<i>Email</i>
+							</a>
+						</li>
+						<li>
+							<a href="http://twitter.com/cjlew23">
+								<i>Twitter</i>
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</header>
 
-		<div class="main">
+<!--Main Content: About Me -->
+
+	<section class = "main-content group">		
+		
+		<section class = "self-intro">	
+				<img src = "assets/picture.jpg" alt = "Claire Lew" class = "circular avatar">
+				<h2> Hi, I'm Claire Lew.</h2>
+		</section>
+
+		<div class="about group">
 			<p>I live in Chicago. My passion is building organizations that make the world a better place. Currently, I'm on a quest to help people become happier at work.</p>
-			<p>I love design, food, and the feeling you get from a morning run + yoga class. I also enjoy organizing <a href="http://ignitechi.org" target="_blank">this</a>.</p>
+			<p>I love design, food, and the feeling you get from a morning run and yoga class. I also enjoy organizing <a href="http://ignitechi.org" target="_blank">this</a>.</p>
 			<p>I occasionally write my thoughts <a href="blog.html">here</a>.</p>
 		</div>
-	
+	</section>		
+
+<!-- Footer -->
 
 		<footer>
-			<div class="contact">
-				<p>Say hello via <a href="mailto:clew23@gmail.com" target="_blank">email</a> or <a href="http://twitter.com/cjlew23" target="_blank">Twitter</a>.<p>
-			</div>
+			<h6>Say hello via <a href="mailto:clew23@gmail.com" target="_blank">email</a> or <a href="http://twitter.com/cjlew23" target="_blank">Twitter</a>.
+			</h6>
 		</footer>
 
 	</body>

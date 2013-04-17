@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 
+	Resetting Defaults 
+*/
+
+
+b, strong {
+  font-weight: bold;
+}
+i, em {
+  font-style: italic;
+}
+
+
+
+/*
+	Grid
+*/
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+/*
+  Clearfix
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+
+
+/* 
+	Custom Styles
+*/
+
+
+body {
+	background: #FCFCFC;
+	font-family: 'Georgia', Arial, Helvetica, sans-serif;
+	color: #666;
+}
+
+
+
+/* 
+	Links 
+*/
+
+
+a:link {
+	text-decoration:none;
+	color: #F37359;
+}
+
+
+a:visited {
+	text-decoration:none;
+	color: #D6D5D4;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #FFAD14;
+
+}
+
+a:active {
+	text-decoration:none;
+}
+
+
+/* 
+	Typography 
+*/
+
+h2{
+	text-align: center;
+	margin: 60px 20px 80px;
+	font-size: 35px;
+}
+
+h6 {
+	text-align: center;
+	font-size: 23px;
+	font-style: italic;
+	font-color: #8F8F8F;
+}
+
+
+p {
+	line-height: 190%;
+	padding: 18px;
+	font-size: 20px;
+}
+
+
+/* 
+	Navigation 
+*/
+
+.primary-header {
+	background: #fff;
+	height: 100px;
+}
+
+.primary-logo {
+	float: left;
+	margin: 27px 80px;
+}
+
+.primary-nav {
+	float: right;
+	width: 300px;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+.primary-nav li{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+
+/* 
+	Main Content  
+*/
+
+
+.main-content{
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+
+/* 
+	About Me
+*/	
+
+
+.avatar {
+	width: 80px;
+	float: left;
+}
+
+.circular {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.self-intro h2{
+	float: left;
+	margin: 25px 0 0 40px;
+
+}
+
+.self-intro{
+	width: 450px;
+	margin: 50px auto;
+	height: 80px;
+}
+
+
+
+
+/* 
+	Blog Post  
+*/
+
+
+.blog-list li{
+	padding-bottom: 35px;
+}
+
+.post-date{
+	float: left;
+	width: 100px;
+	margin-top: 5px;
+}
+
+.blog-title {
+	font-size: 27px;
+	float: right;
+	width: 500px;
+}
+
+time {
+	font-style: italic;
+	font-size: 16px;
+}
+
+
+
+/* 
+	Footer
+*/
+
+footer {
+	background: #ffffff;
+	height: 100px;
+	margin-top: 180px;
+}
+
+footer h6{
+	padding-top: 40px;
+}
+
+/
+
+
