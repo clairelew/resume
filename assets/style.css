@@ -98,7 +98,7 @@ i, em {
 
 
 body {
-	background: #FCFCFC;
+	background: #FFF;
 	font-family: 'Sintony', Arial, Helvetica, sans-serif;
 	color: #666;
 }
@@ -138,7 +138,6 @@ a:active {
 
 h2{
 	text-align: center;
-	margin: 60px 20px 80px;
 	font-size: 40px;
 	font-family: 'Sintony', sans-serif;
 
@@ -154,7 +153,7 @@ h6 {
 p {
 	line-height: 190%;
 	padding: 18px;
-	font-size: 15px;
+	font-size: 16px;
 	font-family: 'Sintony', sans-serif;
 }
 
@@ -166,12 +165,11 @@ p {
 .primary-header {
 	background: #fff;
 	height: 100px;
-	border-bottom: solid 1px #E8E8E8;
 }
 
 .primary-logo {
 	float: left;
-	margin: 23px 0 0 300px;
+	margin-top: 23px;
 
 }
 
@@ -179,7 +177,7 @@ p {
 	height: 20px;
 	width: 300px;
 	float: right;
-	margin: 50px 300px;
+	margin-top: 50px;
 }
 
 .primary-nav li{
@@ -199,22 +197,40 @@ p {
 
 
 .main-content{
-	width: 600px;
-	margin: 0px auto 100px;
+
+	background: #FCFCFC;
+	border-top: solid 1px #E8E8E8;
+	border-bottom: solid 1px #E8E8E8;
+}
+
+
+.content-title{
+	width: 500px;
+	margin: 100px auto 50px;
+	height: 80px;
+}
+
+.content-title h2{
+	margin-top: 20px
+}
+
+.main-text{
+	width: 700px;
+	margin: 0 auto 100px;
 }
 
 
 
 /*
-	Self-intro
+	"Hi, I'm Claire Lew"
 */
 
 
 .avatar {
 	width: 80px;
 	float: left;
-	margin: 40px 0 40px 40px;
-
+/*	margin: 40px 0 40px 40px;
+*/
 }
 
 .circular {
@@ -223,20 +239,10 @@ p {
 	-moz-border-radius: 50%;
 }
 
-.self-intro h2{
-}
-
-.self-intro{
-
-	margin: 40px auto 0;
-
-}
-
-
 
 
 /*
-	Blog Post
+	Blog
 */
 
 .blog h2{
@@ -246,6 +252,8 @@ margin: 100px 0 100px;
 
 .blog-list li{
 	padding-bottom: 60px;
+
+
 }
 
 .post-date{
@@ -261,10 +269,13 @@ margin: 100px 0 100px;
 }
 
 time {
-	font-style: italic;
 	font-size: 16px;
 }
 
+
+.content-title time{
+	padding-right: 20px;
+}
 
 
 /*
@@ -274,7 +285,6 @@ time {
 footer {
 	background: #ffffff;
 	height: 100px;
-	border-top: solid 1px #E8E8E8;
 
 }
 
